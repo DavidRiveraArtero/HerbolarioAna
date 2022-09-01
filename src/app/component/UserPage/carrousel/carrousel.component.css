@@ -1,0 +1,33 @@
+.prue{
+  aspect-ratio: 960/300;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer{
+  background-image: url('../../../../assets/Prue/vector-rosado.svg');
+}
+.row{
+  --bs-gutter-x:0rem !important;
+}
+
+
+img{
+  height: 100%;
+}
+.container-title{
+  size: 160px;
+  padding-top: 70px;
+  margin: 0% auto;
+}
+
+.size-text{
+  font-size: 85px;
+}
+
+
+.carousel-item{
+  height: 360px;
+}

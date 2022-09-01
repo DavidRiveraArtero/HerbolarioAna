@@ -1,0 +1,57 @@
+#header_container{
+
+ background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, .1) 40%, rgba(188, 115, 230, .5) 75%, rgba(188, 115, 230, 1) 100%) repeat scroll 0 0;
+  background-color: #A1E6C1;
+
+
+}
+.mat-drawer-container{
+  background-color: transparent;
+
+}
+
+.mat-toolbar{
+  width: 280px;
+  background-color: transparent;
+}
+
+/* ANIMATION SIDEMENU */
+#icon-btn-close{
+  transform: rotate(0deg);
+  transition-duration: 500ms;
+}
+
+#icon-btn-close:hover{
+  background-color: red;
+  transform: rotate(180deg);
+  transition-duration: 1000ms;
+}
+mat-nav-list a:hover{
+  transition-duration: 1000ms;
+  transform: translate(20px);
+}
+
+#icon-btn-menu{
+  background-color: #E6C689;
+}
+
+#icon-btn-menu mat-icon:hover{
+  transform: scale(1.2,1.2);
+  transition-duration: 1000ms;
+  color: #BC73E6;
+}
+#icon-btn-menu mat-icon{
+  transform: scale(1,1);
+  transition-duration: 1000ms;
+  color: black;
+
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+/*EJEMPLO SI FUNCIONA MOVER A COMPONENTE*/
+
+
+

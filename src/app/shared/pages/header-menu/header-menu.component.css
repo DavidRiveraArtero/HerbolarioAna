@@ -1,0 +1,28 @@
+h2{
+
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+}
+
+img{
+  float: left;
+  margin-bottom: 15px;
+}
+
+#container-header-title{
+  float: left;
+}
+
+button{
+  float: left;
+}
+#search{
+  margin-left: 15px;
+  float: left;
+  z-index: '';
+  margin-bottom: 15px;
+}
+#botonNav{
+  background-color: #703EA2;
+}

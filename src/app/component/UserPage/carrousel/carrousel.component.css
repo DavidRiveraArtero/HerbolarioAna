@@ -1,6 +1,6 @@
-.prue{
-  aspect-ratio: 960/300;
 
+.prue{
+  aspect-ratio: 960/250;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,6 @@
   --bs-gutter-x:0rem !important;
 }
 
-
 img{
   height: 100%;
 }
@@ -24,7 +23,7 @@ img{
 }
 
 .size-text{
-  font-size: 85px;
+  font-size: 70px;
 }
 
 

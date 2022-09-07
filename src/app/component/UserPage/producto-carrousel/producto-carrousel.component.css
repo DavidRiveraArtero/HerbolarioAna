@@ -20,9 +20,17 @@ h5{
   color: black;
 }
 
+.row div .link-text-categoria{
+  text-decoration: none;
+  color: black;
+}
+.row div .link-text-categoria:hover{
+  text-decoration: underline;
+}
 
 
-@media screen and (min-width:576px){
+
+@media screen and (min-width:760px){
   .carousel-inner{
     display: flex;
   }
@@ -35,6 +43,14 @@ h5{
     height: 12vw;
   }
 
+}
+
+@media screen and (min-width:450){
+  .carousel-item{
+    display: block;
+    margin-right:0 ;
+    flex: 0 0 calc(100%/2);
+  }
 }
 
 .carousel-inner{

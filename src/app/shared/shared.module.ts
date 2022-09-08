@@ -2,18 +2,21 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderMenuComponent } from './pages/header-menu/header-menu.component';
 import { MaterialModule } from '../material/material.module';
+import { FooterComponent } from './pages/footer/footer.component';
 
 
 @NgModule({
   declarations: [
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
     MaterialModule
   ],
   exports:[
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }

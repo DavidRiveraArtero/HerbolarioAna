@@ -1,6 +1,6 @@
 
 .prue{
-  aspect-ratio: 960/250;
+  aspect-ratio: 960/200;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@ img{
 }
 .container-title{
   size: 160px;
-  padding-top: 70px;
+  padding-top: 120px;
   margin: 0% auto;
 }
 
@@ -29,4 +29,17 @@ img{
 
 .carousel-item{
   height: 360px;
+}
+
+@media screen and (max-width:1507px){
+  .prue{
+    margin-bottom: 40px;
+
+  }
+
+}
+
+
+@media screen and (max-width:766px){
+
 }

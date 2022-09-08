@@ -1,0 +1,63 @@
+*{
+  color: black;
+}
+
+/*Color del footer*/
+.footer-color{
+  /*background: rgba(255, 255, 255, 0) linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, .1) 40%, rgba(255, 255, 255, .1) 60%, rgba(255, 255, 255, .1) 66%, rgba(255, 255, 255, .1) 80%, rgba(128, 84, 153, 1) 100%) repeat scroll 0 0;*/
+
+  background-color: #E6C689;
+}
+.row{
+  --bs-gutter-x:0rem !important;
+}
+
+/*Contenedor del titulo más el logo*/
+.footer-title{
+  text-align: center;
+  font-size: 45px;
+  line-height: 93px;
+  font-weight: bold;
+  text-shadow: 6px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo-page{
+  float: left;
+  margin-top: 20px;
+  margin-right: 20%;
+  filter: drop-shadow(11px 5px 2px rgba(0, 0, 0, 0.4));
+}
+/*Contenedor de los iconos de las redes sociales*/
+.svg-i{
+  text-align: center;
+}
+.svg-i-princ{
+  margin-left: 35%;
+}
+
+.icon-red{
+  filter: drop-shadow(6px 4px 2px rgba(0, 0, 0, 0.4));
+  width: 40%;
+  text-align: center;
+  transform: rotate(0deg);
+  transition-duration: 500ms;
+}
+
+.icon-red:hover{
+  transform: rotate(-30deg);
+
+  transition-duration: 1000ms;
+}
+
+.container-cont{
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width:970px) {
+  *{
+    display: none;
+  }
+}

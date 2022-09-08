@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderMenuComponent implements OnInit {
 
+  termino:string = ''
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  print(){
+    console.log(this.termino)
+    this.termino = ""
   }
 
 }

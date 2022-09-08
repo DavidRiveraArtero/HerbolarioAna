@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { HeaderMenuComponent } from './pages/header-menu/header-menu.component';
 import { MaterialModule } from '../material/material.module';
 import { FooterComponent } from './pages/footer/footer.component';
@@ -12,7 +13,8 @@ import { FooterComponent } from './pages/footer/footer.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   exports:[
     HeaderMenuComponent,

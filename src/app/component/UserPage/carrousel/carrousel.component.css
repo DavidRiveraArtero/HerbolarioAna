@@ -40,6 +40,16 @@ img{
 }
 
 
-@media screen and (max-width:766px){
+@media screen and (max-width:991px){
+  .container-title h2{
+    font-size: 50px;
+  }
+}
 
+
+@media screen and (max-width:730px){
+  .container-title{
+    padding-top: 20px;
+    text-align: center;
+  }
 }
